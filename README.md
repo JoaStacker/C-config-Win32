@@ -56,7 +56,7 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 
 
 # DEFINIR VARIABLE DE ENTORNO EN WINDOWS
-  Setear la variable de entorno (sino no podremos correr el compilador)
+  Definir la variable de entorno (sino no podremos correr el compilador)
 ## Pasos
 - Ir a C:\msys64\mingw64\bin y copiar esta ruta .
 - Buscar "Editar variables de entorno" en las configuraciones o simplemente buscarlo en la barra de busqueda.
