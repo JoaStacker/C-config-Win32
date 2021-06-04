@@ -58,10 +58,10 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 # DEFINIR VARIABLE DE ENTORNO EN WINDOWS
   Setear la variable de entorno (sino no podremos correr el compilador)
 ## Pasos
-- Ir a C:\msys64\mingw64\bin y copiar esta ruta 
-- Buscar "Enviroment variables settings"
-- En la pestaña de 2system variables" buscar la que dice "path"
-y añadir una nueva en esta variable con la ruta "C:\msys64\mingw64\bin"
+- Ir a C:\msys64\mingw64\bin y copiar esta ruta .
+- Buscar "Editar variables de entorno" en las configuraciones o simplemente buscarlo en la barra de busqueda.
+- En la pestaña de "Variables del sistema" o "System variables" buscar la variable de nombre "path"
+y añadir una nueva ruta en esta variable con la direccion "C:\msys64\mingw64\bin" que copiamos al comienzo.
 
 Listo! Ya tienes tu compilador de C/C++ en Windows.
 
