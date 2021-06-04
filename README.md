@@ -10,14 +10,14 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 - **2)** Debemos sincronizar y actualizar el paquete de la base de datos de MSYS2. <br/>
 	- Para ello en la terminal de MSYS2 ejecutar: 
    
-	`pacman -Syu `
+		`pacman -Syu `
    
 	- Luego confirmar dos veces con "y"
 
 - **3)** Actualizar los paquetes de base.<br/>
 	- Ejecutar el comando:
 	
-	`pacman -Su`
+		`pacman -Su`
 	
 	- Luego confirmar una vez con "y" <br/>
 	- Cerrar terminal
@@ -32,29 +32,29 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
     
  	- Instalar el packete con:
   
-	`pacman -S mingw-w64-x86_64-gcc`
+		`pacman -S mingw-w64-x86_64-gcc`
       
 	- Continuar con "y"
       
 	- Comprobar la version:
-  
-	`gcc --version`  (para c)
+  	
+		`gcc --version`  (para c)
     
 	o bien:
     
-	`g++ --version` (para c++)
+		`g++ --version` (para c++)
 
 	- Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
 
 	- Instalarlo con el siguiente comando:
   
-	`pacman -S mingw-w64-x86_64-gdb`
+		`pacman -S mingw-w64-x86_64-gdb`
 	
 	- Confirmar con "y"
 
 	- Checkear la version de nuestro compilador:
 
-	`gdb --version`
+		`gdb --version`
 
 
 # DEFINIR VARIABLE DE ENTORNO EN WINDOWS
