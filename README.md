@@ -50,7 +50,7 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 	
 	- Confirmar con "y"
 
-	- Checkear la version de nuestro compilador:
+	- Verificar la version de nuestro compilador:
 
 		`gdb --version`
 
