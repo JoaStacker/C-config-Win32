@@ -40,8 +40,6 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
   	
 		`gcc --version`  (para c)
     
-	o bien:
-    
 		`g++ --version` (para c++)
 
 	- Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
