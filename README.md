@@ -4,57 +4,57 @@ Manual de instalacion de entrono de desarrollo en C/C++ con MINGW
 
 ## Pasos
 
-1) Instalar MSYS2 64 bits desde msys.org. Se instalaran 3 terminales. <br/>
+**1)** Instalar MSYS2 64 bits desde msys.org. Se instalaran 3 terminales. <br/>
 Esta es una coleccion de herramientas y librerias que nos proveera de un entorno para desarrolladores facil de usar para crear, instalar y correr software nativo de windows escrito en C/C++.
 
-2) Debemos sincronizar y actualizar el paquete de la base de datos de MSYS2. <br/>
+**2)** Debemos sincronizar y actualizar el paquete de la base de datos de MSYS2. <br/>
 -Para ello en la terminal de MSYS2 ejecutar: 
    
-  	 `pacman -Syu `
+`pacman -Syu `
    
 -Luego confirmar dos veces con "y"
 
-3) Actualizar los paquetes de base.<br/>
+**3)** Actualizar los paquetes de base.<br/>
 -Ejecutar el comando:
 	
-	`pacman -Su`
+`pacman -Su`
 	
 -Luego confirmar una vez con "y" <br/>
 -Cerrar terminal
 
-4)Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
+**4)**Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
 
- a) -Primero buscamos los paquetes disponibles con el nombre gcc  
+**a)** Primero buscamos los paquetes disponibles con el nombre gcc  
  
- 	`pacman -Ss gcc`
+`pacman -Ss gcc`
 	    
 -Ahora buscamos el archivo con el nombre "mingw-w64-x86_64-gcc" para windows de 64bit o "mingw-w32-x86_64-gcc" para 32bit y copiar el nombre para luego indicarlo en el comando de instalacion.
     
-  b) -Instalar el packete con:
+**b)** Instalar el packete con:
   
-      	`pacman -S mingw-w64-x86_64-gcc`
+`pacman -S mingw-w64-x86_64-gcc`
       
- -Continuar con "y"
+-Continuar con "y"
       
-  c)-Comprobar la version:
+**c)** Comprobar la version:
   
-    	`gcc --version`  (para c)
+`gcc --version`  (para c)
     
-   o bien:
+o bien:
     
-    	`g++ --version` (para c++)
+`g++ --version` (para c++)
 
-d)Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
+**d)** Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
 
-  -Instalarlo con el siguiente comando:
+-Instalarlo con el siguiente comando:
   
-	`pacman -S mingw-w64-x86_64-gdb`
+`pacman -S mingw-w64-x86_64-gdb`
 	
-  -Confirmar con "y"
+-Confirmar con "y"
 
-e) Checkear la version de nuestro compilador:
+**e)** Checkear la version de nuestro compilador:
 
-	`gdb --version`
+`gdb --version`
 
 
 # DEFINIR VARIABLE DE ENTORNO EN WINDOWS
