@@ -24,19 +24,19 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 
 - **4)** Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
 
-	- **a)** Primero buscamos los paquetes disponibles con el nombre gcc
+	- Primero buscamos los paquetes disponibles con el nombre gcc
   
 		`pacman -Ss gcc`
 	    
 	- Ahora buscamos el archivo con el nombre "mingw-w64-x86_64-gcc" para windows de 64bit o "mingw-w32-x86_64-gcc" para 32bit y copiar el nombre para luego indicarlo en el comando de instalacion.
     
- 	- **b)** Instalar el packete con:
+ 	- Instalar el packete con:
   
 	`pacman -S mingw-w64-x86_64-gcc`
       
 	- Continuar con "y"
       
-	- **c)** Comprobar la version:
+	- Comprobar la version:
   
 	`gcc --version`  (para c)
     
@@ -44,7 +44,7 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
     
 	`g++ --version` (para c++)
 
-	- **d)** Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
+	- Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
 
 	- Instalarlo con el siguiente comando:
   
@@ -52,7 +52,7 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 	
 	- Confirmar con "y"
 
-	- **e)** Checkear la version de nuestro compilador:
+	- Checkear la version de nuestro compilador:
 
 	`gdb --version`
 
