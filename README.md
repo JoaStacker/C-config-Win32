@@ -22,25 +22,38 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 	-Luego confirmar una vez con "y" <br/>
 	-Cerrar terminal
 
-4)Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc.
- a) -Primero buscamos los paquetes disponibles con el nombre gcc
+4)Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
+
+ a) -Primero buscamos los paquetes disponibles con el nombre gcc  
+ 
 	    `pacman -Ss gcc`
-    -Ahora buscamos el archivo con el nombre "mingw-w64-x86_64-gcc" para windows de 64bit o 
-    "mingw-w32-x86_64-gcc" para 32bit y copiar el nombre para luego indicarlo en el comando de instalacion.
+	    
+    -Ahora buscamos el archivo con el nombre "mingw-w64-x86_64-gcc" para windows de 64bit o "mingw-w32-x86_64-gcc" para 32bit y copiar el nombre para luego indicarlo en el comando de instalacion.
+    
   b) -Instalar el packete con:
+  
       `pacman -S mingw-w64-x86_64-gcc`
+      
       -Continuar con "y"
+      
   c)-Comprobar la version:
+  
     `gcc --version`  (para c)
-    o bien 
+    
+    o bien:
+    
     `g++ --version` (para c++)
 
-d)Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).
+d)Buscar el debugger package (paquete de depuracion) "mingw-w64-x86_64-gdb" y copiarlo (este es el de 32 bits).<br/>
+
   -Instalarlo con el siguiente comando:
+  
 	`pacman -S mingw-w64-x86_64-gdb`
+	
   -Confirmar con "y"
 
 e) Checkear la version de nuestro compilador:
+
 	`gdb --version`
 
 
@@ -52,7 +65,7 @@ e) Checkear la version de nuestro compilador:
 3) En la pestaña de 2system variables" buscar la que dice "path"
 y añadir una nueva en esta variable con la ruta "C:\msys64\mingw64\bin"
 
-Listo. Ya tienes tu compilador de C/C++ en windows.
+Listo! Ya tienes tu compilador de C/C++ en Windows.
 
 ## Compilar mi primer programa
 1) Asegurarse de abrir el terminar y estar situado en la carpeta donde tenemos nuestro archivo .cpp con el codigo en C/C++
