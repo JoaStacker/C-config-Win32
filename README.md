@@ -71,6 +71,8 @@ Listo! Ya tienes tu compilador de C/C++ en Windows.
 
     `g++ -o "nombre" "miArchivo.cpp"` El nombre es el que recibe el archivo ejecutable .exe listo para correr.
     
+    `gcc -o "nombre" "miArchivo.cpp"`
+    
 -  Correr el ejecutable generado solamente escribindo el nombre del mismo.
 
     `nombre`
