@@ -9,6 +9,8 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 ![image](https://user-images.githubusercontent.com/58922125/120826347-b58dc000-c530-11eb-8bed-4c1a9988586e.png)
 
 - **2)** Debemos sincronizar y actualizar el paquete de la base de datos de MSYS2. <br/>
+![image](https://user-images.githubusercontent.com/58922125/120826478-dfdf7d80-c530-11eb-868f-b1f2df6a9561.png) <br/>
+
 	- Para ello en la terminal de MSYS2 ejecutar: 
    
 		`pacman -Syu `
