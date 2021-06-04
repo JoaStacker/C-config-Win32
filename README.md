@@ -22,15 +22,15 @@ Esta es una coleccion de herramientas y librerias que nos proveera de un entorno
 -Luego confirmar una vez con "y" <br/>
 -Cerrar terminal
 
-**4)**Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
+**4)** Abrir la terminal "MSYS2 MinGm 64-bit" para instalar gcc. <br/>
 
-**a)** Primero buscamos los paquetes disponibles con el nombre gcc  
+  **a)** Primero buscamos los paquetes disponibles con el nombre gcc  
  
 `pacman -Ss gcc`
 	    
 -Ahora buscamos el archivo con el nombre "mingw-w64-x86_64-gcc" para windows de 64bit o "mingw-w32-x86_64-gcc" para 32bit y copiar el nombre para luego indicarlo en el comando de instalacion.
     
-**b)** Instalar el packete con:
+  **b)** Instalar el packete con:
   
 `pacman -S mingw-w64-x86_64-gcc`
       
