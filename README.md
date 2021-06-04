@@ -4,8 +4,9 @@ Manual de instalacion de entrono de desarrollo en C/C++ con MINGW
 
 ## Pasos
 
-- **1)** Instalar MSYS2 64 bits desde https://www.msys2.org/. Se instalaran 3 terminales. <br/>
+- **1)** Descargar e instalar MSYS2 64 bits desde https://www.msys2.org/. Se instalaran 3 terminales. <br/>
 Esta es una coleccion de herramientas y librerias que nos proveera de un entorno para desarrolladores facil de usar para crear, instalar y correr software nativo de windows escrito en C/C++.
+![image](https://user-images.githubusercontent.com/58922125/120826347-b58dc000-c530-11eb-8bed-4c1a9988586e.png)
 
 - **2)** Debemos sincronizar y actualizar el paquete de la base de datos de MSYS2. <br/>
 	- Para ello en la terminal de MSYS2 ejecutar: 
